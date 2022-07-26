@@ -21,6 +21,8 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         dispatch(login(form)).then((res) => console.log(res));
+
+        // window.location.reload();
     }
 
 
